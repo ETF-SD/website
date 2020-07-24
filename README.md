@@ -1,3 +1,1 @@
-# San-Diego-Chapter
-
-Website for Elevate the Future's San Diego Chapter
+what are you doing here. go [here](https://elevate-the-future.github.io/san-diego-chapter)
