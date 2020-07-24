@@ -29,13 +29,24 @@
       rel="stylesheet"
     />
     <script defer src="js/index.js"></script>
-    <link rel="stylesheet" href="https://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
+    <link
+      rel="stylesheet"
+      href="https://github.hubspot.com/odometer/themes/odometer-theme-default.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://github.hubspot.com/odometer/odometer.js"></script>
     <link rel="stylesheet" href="./css/main.css" />
     <title>ETF San Diego</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      data-aos="fade-down"
+    >
       <a class="navbar-brand" href="#">
         <img
           src="./img/logo.svg"
@@ -59,28 +70,47 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Upcoming Classes</a>
+            <a class="nav-link" href="#upcoming-classes">Upcoming Classes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Team</a>
+            <a class="nav-link" href="#our-team">Our Team</a>
           </li>
         </ul>
       </div>
     </nav>
     <div class="container">
-      <div class="row">
-        <div class="col-md-4">
+      <div class="flexbox-container-1">
+        <h1 class="slogan" data-aos="fade-right">
+          A student-led nonprofit inspiring the next generation of
+          <span class="highlight-dark"><i>innovators</i></span> and
+          <span class="highlight-light"><i>problem solvers</i></span>
+        </h1>
+        <div class="flexbox-item-1">
           <h1 class="number main-num odometer" id="hours-num">0</h1>
           <p class="main-desc">Hours taught</p>
         </div>
-        <div class="col-md-4">
+        <div class="flexbox-item-1">
           <h1 class="number main-num odometer" id="classes-num">0</h1>
           <p class="main-desc">Classes held</p>
         </div>
-        <div class="col-md-4">
+        <div class="flexbox-item-1">
           <h1 class="number main-num odometer" id="students-num">0</h1>
           <p class="main-desc">Students reached</p>
         </div>
+      </div>
+      <img src="./img/down.svg" class="down-arrow" />
+    </div>
+    <div class="green-slant" id="upcoming-classes">
+      <h1 id="slant-title">Upcoming Classes</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            id="business-image"
+            src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F07%2Fdesk-3139127_1920-1200x773.jpg"
+          />
+          <p style="color: white;">Pp</p>
+        </div>
+        <div class="col-md-6"></div>
       </div>
     </div>
   </body>
