@@ -1,1 +1,7 @@
-what are you doing here. go [here](https://elevate-the-future.github.io/san-diego-chapter)
+### Creators
+
+[Rishi Peddakama](https://github.com/rpeddakama)
+[Raadwan Masum](https://raadwan.com)
+[Aadit Gupta](https://aaditgupta.tech)
+[Safin Singh](https://safinsingh.tech)
+[Rohan Juneja](https://rohanj.dev)
