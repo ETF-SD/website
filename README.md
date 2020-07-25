@@ -7,3 +7,5 @@
 [Safin Singh](https://safinsingh.tech)
 
 [Rohan Juneja](https://rohanj.dev)
+
+[Rishi Peddakama](https://github.com/rpeddakama)
