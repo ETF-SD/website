@@ -1,6 +1,4 @@
-### Creators
-
-[Rishi Peddakama](https://github.com/rpeddakama)
+### Creators (you are legally obligated to click their names)
 
 [Raadwan Masum](https://raadwan.com)
 

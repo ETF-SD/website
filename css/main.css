@@ -1,6 +1,8 @@
 :root {
   --main: #286e60;
+  --main-light: #459182;
   --alternate: #fe5046;
+  --alternate-light: #f1a18e;
 }
 
 html {
@@ -8,7 +10,7 @@ html {
 }
 
 body {
-  padding-top: 40px;
+  padding-top: 50px;
   position: relative;
   overflow-x: hidden;
 }
@@ -41,12 +43,20 @@ nav {
   color: var(--alternate);
 }
 
+.highlight-dark {
+  color: var(--main);
+}
+
 .highlight-light {
   color: var(--alternate);
 }
 
-.highlight-dark {
-  color: var(--main);
+.highlight-superlight {
+  color: var(--alternate-light);
+}
+
+.highlight-superlight:hover {
+  color: var(--alternate-light);
 }
 
 .row {
@@ -86,10 +96,33 @@ nav {
 }
 
 .green-slant {
-  padding: 80px;
-  height: 120vh;
+  padding: 160px 80px;
+  height: 150vh;
   background-color: var(--main);
   clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+}
+
+.green-slant h1 {
+  color: var(--alternate-light);
+  margin-bottom: 10%;
+}
+
+.flexbox-container-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flexbox-container-2 h1 {
+  color: var(--alternate-light);
+}
+
+.class {
+  width: 300%;
+  height: 300%;
+  margin: 60% 0 10% 0;
+  background-color: var(--main-light);
 }
 
 .slogan {
@@ -97,8 +130,54 @@ nav {
   margin-bottom: 3rem;
 }
 
-#slant-title {
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 50%;
+  border-radius: 20px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: all 0.7s cubic-bezier(0.2, 0.7, 0.9, 1.3);
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: black;
+}
+
+.flip-card-back {
+  padding: 9% 12%;
+  background-color: var(--main-light);
   color: white;
+  border-radius: 20px;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back h1 {
+  margin-bottom: 1rem;
+}
+
+.flip-card-back p {
+  font-size: 1.3rem;
 }
 
 @keyframes arrow {
@@ -154,19 +233,51 @@ nav {
   width: 500px;
 }
 
-/* MEDIA QUERIES */
-@media only screen and (max-width: 768px) {
-  .odometer h1 {
-    font-size: 100px;
-  }
-  .flexbox-container-1 p {
-    font-size: 30px;
-  }
-  .slogan {
-    font-size: 1.5rem;
-  }
+#awesome {
+  color: white;
 }
 
 #awesome a {
   color: white !important;
+}
+
+.upcoming-image {
+  width: 100%;
+  margin: 10px 0px;
+  border-radius: 20px;
+}
+
+footer {
+  margin-top: 2.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.second-class {
+  transform: translateY(60px);
+}
+
+/* .flip-card-back a {
+  color: #222253;
+} */
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 700px) {
+  .main-num {
+    font-size: 3rem;
+  }
+
+  .flexbox-container-1 p {
+    font-size: 1.5rem;
+  }
+
+  .slogan {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .logo {
+    width: 10rem;
+    height: 3rem;
+  }
 }
