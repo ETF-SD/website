@@ -231,10 +231,6 @@ footer {
   transform: translateY(60px);
 }
 
-/* .flip-card-back a {
-  color: #222253;
-} */
-
 /* MEDIA QUERIES */
 @media only screen and (max-width: 700px) {
   .main-num {
@@ -255,4 +251,16 @@ footer {
     height: 3rem;
   }
 
+  .green-slant {
+    height: 240vh;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  }
+
+  .green-slant h1 {
+    margin-top: 3rem;
+  }
+
+  .thumbnail img {
+    margin-top: 3rem;
+  }
 }
