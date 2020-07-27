@@ -101,9 +101,9 @@ nav {
 
 .green-slant {
   padding: 160px 80px;
-  height: 150vh;
+  height: 1250px;
   background-color: var(--main);
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0 85%);
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 }
 
 .green-slant h1 {
@@ -253,7 +253,7 @@ footer {
 
   .green-slant {
     padding: 100px 50px;
-    height: 200vh;
+    height: 1430px;
     clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
   }
 
