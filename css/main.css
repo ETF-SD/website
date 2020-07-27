@@ -134,6 +134,10 @@ nav {
   margin-bottom: 3rem;
 }
 
+.thumbnail img {
+  width: 40%;
+}
+
 .caption h1 {
   font-weight: bold;
   margin-top: 1rem;
