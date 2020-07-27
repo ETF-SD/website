@@ -252,12 +252,9 @@ footer {
   }
 
   .green-slant {
-    height: 230vh;
+    padding: 160px 50px;
+    height: 260vh;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
-  }
-
-  .green-slant h1 {
-    margin-top: 3rem;
   }
 
   .thumbnail img {
