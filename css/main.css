@@ -44,19 +44,19 @@ nav {
 }
 
 .highlight-dark {
-  color: var(--main);
+  color: var(--main) !important;
 }
 
 .highlight-light {
-  color: var(--alternate);
+  color: var(--alternate) !important;
 }
 
 .highlight-superlight {
-  color: var(--alternate-light);
+  color: var(--alternate-light) !important;
 }
 
 .highlight-superlight:hover {
-  color: var(--alternate-light);
+  color: var(--alternate-light) !important;
 }
 
 .row {
