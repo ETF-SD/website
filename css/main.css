@@ -257,6 +257,18 @@ footer {
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
   }
 
+  .caption h1 {
+    font-size: 2rem;
+  }
+
+  .caption p {
+    font-size: 1rem;
+  }
+
+  .caption a {
+    font-size: 1.5rem;
+  }
+
   .thumbnail img {
     margin-top: 3rem;
   }
