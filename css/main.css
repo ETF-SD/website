@@ -134,6 +134,11 @@ nav {
   margin-bottom: 3rem;
 }
 
+.caption h1 {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
 .caption p {
   color: white;
   font-size: 1.3rem;
