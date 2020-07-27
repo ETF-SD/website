@@ -59,6 +59,10 @@ nav {
   color: var(--alternate-light) !important;
 }
 
+.not-allowed:hover {
+  cursor: not-allowed;
+}
+
 .row {
   height: 90vh;
 }
