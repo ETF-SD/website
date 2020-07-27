@@ -252,7 +252,7 @@ footer {
   }
 
   .green-slant {
-    height: 240vh;
+    height: 230vh;
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
   }
 
