@@ -130,6 +130,10 @@ nav {
   margin-bottom: 3rem;
 }
 
+.caption p {
+  color: white;
+}
+
 @keyframes arrow {
   0% {
     transform: translateY(-10px);
