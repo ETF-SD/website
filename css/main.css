@@ -135,6 +135,10 @@ nav {
   font-size: 1.3rem;
 }
 
+.caption a {
+  font-size: 2rem;
+}
+
 @keyframes arrow {
   0% {
     transform: translateY(-10px);
