@@ -1,206 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-  </script>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
-  <script defer src="js/index.js"></script>
-  <link rel="stylesheet" href="https://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <script src="https://github.hubspot.com/odometer/odometer.js"></script>
-  <link rel="stylesheet" href="./css/main.css" />
-  <link rel="icon" href="./img/rocket.png" />
-  <title>ETF San Diego</title>
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+                               integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+        </script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+        <script defer src="js/index.js"></script>
+        <link rel="stylesheet" href="https://github.hubspot.com/odometer/themes/odometer-theme-default.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://github.hubspot.com/odometer/odometer.js"></script>
+        <link rel="stylesheet" href="./css/main.css" />
+        <link rel="icon" href="./img/rocket.png" />
+        <title>ETF San Diego</title>
+    </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="-200">
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-aos="fade-down">
-    <a class="navbar-brand" href="#">
-      <img src="./img/logo.svg" height="60" class="logo d-inline-block align-top" alt="Logo" />
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#upcoming-classes">Upcoming Classes</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#our-team">Our Team</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <div class="container">
-    <div class="flexbox-container-1">
-      <h1 class="slogan" data-aos="fade-right">
-        A student-led nonprofit inspiring the next generation of
-        <span class="highlight-dark"><i>innovators</i></span> and
-        <span class="highlight-light"><i>problem solvers</i></span>
-      </h1>
-
-      <div class="flexbox-item-1">
-        <h1 class="number main-num odometer" id="hours-num">0</h1>
-        <p class="main-desc">Hours taught</p>
-      </div>
-      <div class="flexbox-item-1">
-        <h1 class="number main-num odometer" id="classes-num">0</h1>
-        <p class="main-desc">Classes held</p>
-      </div>
-
-      <div class="flexbox-item-1">
-        <h1 class="number main-num odometer" id="students-num">0</h1>
-        <p class="main-desc">Students reached</p>
-      </div>
-    </div>
-    <a href="#upcoming-classes"><img src="./img/down.svg" class="down-arrow" /></a>
-  </div>
-  <section id="upcoming-classes">
-    <div class="green-slant" id="upcoming-classes">
-      <h1>Upcoming Classes</h1>
-
-
-
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="thumbnail">
-            <img src="img/graph.svg">
-            <div class="caption">
-              <p>
-                <h1>Business</h1>
-                <p>
-                  An intro to the fundementals of business, which will allow
-                  you to dive into the world of economics and craft a business plan.
-                </p>
-                <p>
-                  Topics: Economics, Finance, Business Factors, and Business Pitches
-                </p>
-                <p>
-                  Dates: July 29 (Wednesday) and 31 (Friday), August 5
-                  (Wednesday) and August 7 (Friday)
-                </p>
-                <a class="highlight-superlight" href="https://bit.ly/ETFBusiness">Sign Up Here</a>
-              </p>
-            </div>
+    <body data-spy="scroll" data-target=".navbar" data-offset="-200">
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" data-aos="fade-down">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.svg" height="60" class="logo d-inline-block align-top" alt="Logo" />
             </a>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="thumbnail">
-            <img src="img/terminal.svg">
-            <div class="caption">
-              <h1>Cybersecurity</h1>
-              <p>
-                A beginner-friendly introduction to the world of
-                cybersecurity and digital forensics.
-              </p>
-              <p>
-                Topics: Cybersecurity, Digital Forensics, Open Source
-                Intelligence, Internet Protocols
-              </p>
-              <p>Dates: TBD</p>
-                <a class="highlight-superlight not-allowed">Sign Up Link Will Be Posted Soon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                                                                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#upcoming-classes">Upcoming Classes</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#our-team">Our Team</a>
+                    </li>
+                </ul>
             </div>
-          </div>
-        </div>
-      </div>
+        </nav>
+        <div class="container">
+            <div class="flexbox-container-1">
+                <h1 class="slogan" data-aos="fade-right">
+                    A student-led nonprofit inspiring the next generation of
+                    <span class="highlight-dark"><i>innovators</i></span> and
+                    <span class="highlight-light"><i>problem solvers</i></span>
+                </h1>
 
+                <div class="flexbox-item-1">
+                    <h1 class="number main-num odometer" id="hours-num">0</h1>
+                    <p class="main-desc">Hours taught</p>
+                </div>
+                <div class="flexbox-item-1">
+                    <h1 class="number main-num odometer" id="classes-num">0</h1>
+                    <p class="main-desc">Classes held</p>
+                </div>
 
-
-
-
-
-      <!-- <div class="row">
-        <div class="col-md-5">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img/business.png" class="upcoming-image" />
-                <h2 class="highlight-superlight">Business</h2>
-              </div>
-              <div class="flip-card-back">
-                <h1>Business</h1>
-                <p>
-                  An intro to the fundementals of business, which will allow
-                  you to dive into the world of economics and craft a business plan.
-                </p>
-                <p>
-                  Topics: Economics, Finance, Business Factors, and Business Pitches
-                </p>
-                <p>
-                  Dates: July 29 (Wednesday) and 31 (Friday), August 5
-                  (Wednesday) and August 7 (Friday)
-                </p>
-                <a class="highlight-superlight" href="https://bit.ly/ETFBusiness">Sign Up Here</a>
-              </div>
+                <div class="flexbox-item-1">
+                    <h1 class="number main-num odometer" id="students-num">0</h1>
+                    <p class="main-desc">Students reached</p>
+                </div>
             </div>
-          </div>
+            <a href="#upcoming-classes"><img src="./img/down.svg" class="down-arrow" /></a>
         </div>
-        <div class="col-md-2"></div>
-        <div class="col-md-5 second-class">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img/cyber.png" class="upcoming-image" />
-                <h2 class="highlight-superlight">Cybersecurity</h2>
-              </div>
-              <div class="flip-card-back">
-                <h1>Cybersecurity</h1>
-                <p>
-                  A beginner-friendly introduction to the world of
-                  cybersecurity and digital forensics.
-                </p>
-                <p>
-                  Topics: Cybersecurity, Digital Forensics, Open Source
-                  Intelligence, Internet Protocols
-                </p>
-                <p>Dates: TBD</p>
-                <p>Sign Up Link Will Be Posted Soon</p>
-              </div>
+        <section id="upcoming-classes">
+            <div class="green-slant" id="upcoming-classes">
+                <h1>Upcoming Classes</h1>
+
+
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <img src="img/graph.svg">
+                            <div class="caption">
+                                <p>
+                                    <h1>Business</h1>
+                                    <p>
+                                        An intro to the fundementals of business, which will allow
+                                        you to dive into the world of economics and craft a business plan.
+                                    </p>
+                                    <p>
+                                        Topics: Economics, Finance, Business Factors, and Business Pitches
+                                    </p>
+                                    <p>
+                                        Dates: July 29 (Wednesday) and 31 (Friday), August 5
+                                        (Wednesday) and August 7 (Friday)
+                                    </p>
+                                    <a class="highlight-superlight" target="_blank" href="https://bit.ly/ETFBusiness">Sign Up Here</a>
+                                </p>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <img src="img/terminal.svg">
+                            <div class="caption">
+                                <h1>Cybersecurity</h1>
+                                <p>
+                                    A beginner-friendly introduction to the world of
+                                    cybersecurity and digital forensics.
+                                </p>
+                                <p>
+                                    Topics: Cybersecurity, Digital Forensics, Open Source
+                                    Intelligence, Internet Protocols
+                                </p>
+                                <p>Dates: TBD</p>
+                                <a class="highlight-superlight not-allowed">Sign Up Link Will Be Posted Soon</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <!-- <div class="row">
+                    <div class="col-md-5">
+                    <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                    <img src="img/business.png" class="upcoming-image" />
+                    <h2 class="highlight-superlight">Business</h2>
+                    </div>
+                    <div class="flip-card-back">
+                    <h1>Business</h1>
+                    <p>
+                    An intro to the fundementals of business, which will allow
+                    you to dive into the world of economics and craft a business plan.
+                    </p>
+                    <p>
+                    Topics: Economics, Finance, Business Factors, and Business Pitches
+                    </p>
+                    <p>
+                    Dates: July 29 (Wednesday) and 31 (Friday), August 5
+                    (Wednesday) and August 7 (Friday)
+                    </p>
+                    <a class="highlight-superlight" href="https://bit.ly/ETFBusiness">Sign Up Here</a>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-5 second-class">
+                    <div class="flip-card">
+                    <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                    <img src="img/cyber.png" class="upcoming-image" />
+                    <h2 class="highlight-superlight">Cybersecurity</h2>
+                    </div>
+                    <div class="flip-card-back">
+                    <h1>Cybersecurity</h1>
+                    <p>
+                    A beginner-friendly introduction to the world of
+                    cybersecurity and digital forensics.
+                    </p>
+                    <p>
+                    Topics: Cybersecurity, Digital Forensics, Open Source
+                    Intelligence, Internet Protocols
+                    </p>
+                    <p>Dates: TBD</p>
+                    <p>Sign Up Link Will Be Posted Soon</p>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div> -->
+
+
+
+
+
+
             </div>
-          </div>
-        </div>
-      </div> -->
-
-
-
-
-
-
-    </div>
-  </section>
-  <footer>
-    Copyright &copy; Elevate the Future 2020
-  </footer>
-</body>
+        </section>
+        <footer>
+            Copyright &copy; Elevate the Future 2020
+        </footer>
+    </body>
 
 </html>
 
 <h1 id="awesome">
-  Made by
-  <a href="https://safinsingh.tech" style="cursor: pointer;">Safin</a>,
-  <a href="https://raadwan.com/">Raadwan</a>,
-  <a href="https://aaditgupta.tech">Aadit</a>,
-  <a href="https://rohanj.dev">Rohan</a>
+    Made by
+    <a href="https://safinsingh.tech" style="cursor: pointer;">Safin</a>,
+    <a href="https://raadwan.com/">Raadwan</a>,
+    <a href="https://aaditgupta.tech">Aadit</a>,
+    <a href="https://rohanj.dev">Rohan</a>
 </h1>
