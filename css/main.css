@@ -117,6 +117,19 @@ nav {
 
 .card {
     border: none;
+    border-radius: 0;
+    clip-path: 
+        polygon(
+            0% 0%,     /* top left */
+            0% 0%,     /* top left */
+            88% 0%,    /* top right */
+            100% 25%,   /* top right */
+            100% 100%,  /* bottom right */
+            100% 100%,  /* bottom right */
+            0% 100%,   /* bottom left */
+            0 90%      /* bottom left */
+        );
+
 }
 
 .card-header {
