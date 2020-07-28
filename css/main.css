@@ -105,12 +105,12 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .flexbox-item-2 {
-  width: 7em;
-  margin: 1rem 0;
+  width: 10em;
+  margin: 1rem 2%;
   text-align: center;
 }
 
