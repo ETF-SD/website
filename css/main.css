@@ -114,6 +114,20 @@ nav {
   text-align: center;
 }
 
+.card {
+    border: none;
+}
+
+.card-header {
+    color: var(--alternate-light);
+    background-color: var(--main);
+}
+
+.card-body {
+    color: white;
+    background-color: var(--main-light);
+}
+
 .green-slant {
   padding: 160px 80px;
   height: 1250px;
