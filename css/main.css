@@ -99,15 +99,6 @@ nav {
   text-align: center;
 }
 
-.flexbox-container-2 {
-  width: 100%;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .green-slant {
   padding: 160px 80px;
   height: 1250px;
@@ -173,6 +164,10 @@ nav {
   animation-name: arrow;
   animation-duration: 1s;
   animation-iteration-count: infinite;
+}
+
+.team-flexbox-container {
+  display: flex;
 }
 
 /* width */
