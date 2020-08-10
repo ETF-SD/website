@@ -259,6 +259,10 @@ footer {
   text-align: center;
 }
 
+footer img {
+  padding: 0 10px;
+}
+
 .second-class {
   transform: translateY(60px);
 }
