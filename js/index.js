@@ -7,7 +7,7 @@ setTimeout(function () {
   hours_num.innerHTML = 110;
 }, 500);
 setTimeout(function () {
-  classes_num.innerHTML = 4;
+  classes_num.innerHTML = 8;
 }, 500);
 setTimeout(function () {
   students_num.innerHTML = 170;
