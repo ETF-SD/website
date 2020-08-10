@@ -185,7 +185,7 @@ nav {
   object-fit: cover;
 }
 
-.team-flexbox-item img:hover {
+.team-flexbox-item img:hover, .team-flexbox-item img:active {
   opacity: 0.5;
 }
 
