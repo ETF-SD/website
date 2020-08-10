@@ -168,6 +168,21 @@ nav {
 
 .team-flexbox-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team-flexbox-item {
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  object-fit: cover;
+}
+
+.team-flexbox-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
 }
 
 /* width */
