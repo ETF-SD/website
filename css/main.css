@@ -191,6 +191,9 @@ nav {
   background-color: var(--main);
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 }
+.carousel-item iframe {
+  margin: 0 auto !important;
+}
 
 /* width */
 ::-webkit-scrollbar {
