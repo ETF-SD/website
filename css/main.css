@@ -111,18 +111,6 @@ nav {
   margin-bottom: 5%;
 }
 
-.green-slant-2 {
-  padding: 160px 80px;
-  height: 1250px;
-  background-color: var(--main);
-  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
-}
-
-.green-slant-2 h1 {
-  color: var(--alternate-light);
-  margin-bottom: 5%;
-}
-
 .class {
   width: 300%;
   height: 300%;
@@ -191,26 +179,13 @@ nav {
   object-fit: cover;
 }
 
-/*
-.team-flexbox-item h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-*/
-
 .team-flexbox-item img {
   width: 300px;
   height: 300px;
   object-fit: cover;
 }
 
-/* .team-flexbox-item img:hover, .team-flexbox-item img:active {
-  opacity: 0.3;
-} */
-
-.green-slant {
+.green-slant-2 {
   padding: 160px 80px;
   height: 1250px;
   background-color: var(--main);
@@ -318,15 +293,13 @@ footer img {
   }
 }
 
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
   width: 300px;
   height: 300px;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px;
 }
 
-/* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
   width: 100%;
@@ -336,12 +309,10 @@ footer img {
   transform-style: preserve-3d;
 }
 
-/* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
 
-/* Position the front and back side */
 .flip-card-front,
 .flip-card-back {
   position: absolute;
@@ -350,13 +321,11 @@ footer img {
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
 .flip-card-front {
   background-color: #bbb;
   color: black;
 }
 
-/* Style the back side */
 .flip-card-back {
   padding: 20px;
   background-color: var(--main);
