@@ -185,6 +185,10 @@ nav {
   object-fit: cover;
 }
 
+.social-header {
+  margin: 0 auto;
+}
+
 .green-slant-2 {
   padding: 160px 80px;
   height: 1500px;
