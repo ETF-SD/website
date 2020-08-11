@@ -250,6 +250,10 @@ footer img {
   transform: translateY(60px);
 }
 
+.iframe-container {
+  width: 700px !important;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 800px) {
   .main-num {
@@ -290,6 +294,10 @@ footer img {
 
   .thumbnail img {
     margin-top: 3rem;
+  }
+
+  .iframe-container {
+    width: 300px !important;
   }
 }
 
