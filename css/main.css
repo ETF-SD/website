@@ -195,6 +195,11 @@ nav {
   background-color: var(--main);
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 }
+
+.carousel {
+  width: 850px !important;
+}
+
 .carousel-item iframe {
   margin: 0 auto !important;
 }
