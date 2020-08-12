@@ -191,7 +191,7 @@ nav {
 
 .green-slant-2 {
   padding: 160px 80px;
-  height: 1500px;
+  height: 1800px;
   background-color: var(--main);
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 }
