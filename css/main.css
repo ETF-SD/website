@@ -197,29 +197,29 @@ nav {
 }
 
 .contact-form {
-    text-align: center;
+  text-align: center;
 }
 
 .contact-form input {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .contact-form textarea {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .contact-form form button {
-    color: var(--alternate-light);
-    background-color: var(--main-light);
-    font-weight: bold;
-    border-radius: 10px;
-    width: 200px;
-    transition: 0.5s all;
+  color: var(--alternate-light);
+  background-color: var(--main-light);
+  font-weight: bold;
+  border-radius: 10px;
+  width: 200px;
+  transition: 0.5s all;
 }
 
 .contact-form form button:hover {
-    color: var(--main-light);
-    background-color: var(--alternate-light);
+  color: var(--main-light);
+  background-color: var(--alternate-light);
 }
 
 .carousel {
@@ -339,8 +339,8 @@ footer img {
   }
 
   .carousel-inner {
-      width: 38% !important;
-      margin: 0 auto !important;
+    width: 38% !important;
+    margin: 0 auto !important;
   }
 }
 
