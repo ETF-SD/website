@@ -196,6 +196,32 @@ nav {
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
 }
 
+.contact-form {
+    text-align: center;
+}
+
+.contact-form input {
+    border-radius: 10px;
+}
+
+.contact-form textarea {
+    border-radius: 10px;
+}
+
+.contact-form form button {
+    color: var(--alternate-light);
+    background-color: var(--main-light);
+    font-weight: bold;
+    border-radius: 10px;
+    width: 200px;
+    transition: 0.5s all;
+}
+
+.contact-form form button:hover {
+    color: var(--main-light);
+    background-color: var(--alternate-light);
+}
+
 .carousel {
   width: 850px !important;
 }
