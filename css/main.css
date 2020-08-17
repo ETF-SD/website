@@ -337,6 +337,11 @@ footer img {
   .iframe-container {
     width: 300px !important;
   }
+
+  .carousel-inner {
+      width: 38% !important;
+      margin: 0 auto !important;
+  }
 }
 
 .flip-card {
