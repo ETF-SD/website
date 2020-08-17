@@ -214,7 +214,7 @@ nav {
   font-weight: bold;
   border-radius: 10px;
   width: 200px;
-  transition: 0.5s all;
+  transition: 0.25s all;
 }
 
 .contact-form form button:hover {
